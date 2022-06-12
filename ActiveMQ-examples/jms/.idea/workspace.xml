@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="92151579-d8fa-456a-8429-673d2a57e1de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../authorization/src/main/java/com/sripiranavan/spring/fullstack/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authorization/src/main/java/com/sripiranavan/spring/fullstack/config/CORSCustomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authorization/src/main/java/com/sripiranavan/spring/fullstack/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authorization/src/main/java/com/sripiranavan/spring/fullstack/config/keys/JwksKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cqrs/src/main/java/com/sripiranavan/spring/microservice/cqrs/command/api/aggregate/ProductAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cqrs/src/main/java/com/sripiranavan/spring/microservice/cqrs/command/api/commands/CreateProductCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cqrs/src/main/java/com/sripiranavan/spring/microservice/cqrs/command/api/controller/ProductCommandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cqrs/src/main/java/com/sripiranavan/spring/microservice/cqrs/command/api/data/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cqrs/src/main/java/com/sripiranavan/spring/microservice/cqrs/command/api/data/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cqrs/src/main/java/com/sripiranavan/spring/microservice/cqrs/command/api/events/ProductCreatedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cqrs/src/main/java/com/sripiranavan/spring/microservice/cqrs/command/api/events/ProductEventsHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cqrs/src/main/java/com/sripiranavan/spring/microservice/cqrs/command/api/exception/ProductServiceEventsErrorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cqrs/src/main/java/com/sripiranavan/spring/microservice/cqrs/command/api/model/ProductRestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cqrs/src/main/java/com/sripiranavan/spring/microservice/cqrs/query/api/controller/ProductQueryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cqrs/src/main/java/com/sripiranavan/spring/microservice/cqrs/query/api/projection/ProductProjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cqrs/src/main/java/com/sripiranavan/spring/microservice/cqrs/query/api/queries/GetProductsQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../department-service/src/main/java/com/sripiranavan/spring/department/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../department-service/src/main/java/com/sripiranavan/spring/department/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../department-service/src/main/java/com/sripiranavan/spring/department/repository/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../department-service/src/main/java/com/sripiranavan/spring/department/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../department-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jms/MessageReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jms/MessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jmsConsumer/src/main/java/com/sripiranavan/java/jms/ProductConsumerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jmsConsumer/src/main/java/com/sripiranavan/java/jms/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jmsConsumer/src/main/java/com/sripiranavan/java/jms/config/MessagingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jmsConsumer/src/main/java/com/sripiranavan/java/jms/config/MessagingListnerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jmsConsumer/src/main/java/com/sripiranavan/java/jms/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jmsConsumer/src/main/java/com/sripiranavan/java/jms/receiver/ProductReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jmsProducer/src/main/java/com/sripiranavan/java/jms/ProductProducerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jmsProducer/src/main/java/com/sripiranavan/java/jms/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jmsProducer/src/main/java/com/sripiranavan/java/jms/config/MessagingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jmsProducer/src/main/java/com/sripiranavan/java/jms/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jmsProducer/src/main/java/com/sripiranavan/java/jms/producer/ProductSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../message/src/main/java/com/sripiranavan/spring/jms/config/JmsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../message/src/main/java/com/sripiranavan/spring/jms/config/TaskConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../message/src/main/java/com/sripiranavan/spring/jms/listener/MessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../message/src/main/java/com/sripiranavan/spring/jms/model/GreetingMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../message/src/main/java/com/sripiranavan/spring/jms/sender/MessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resource/src/main/java/com/sripiranavan/spring/resource/config/CORSCustomizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resource/src/main/java/com/sripiranavan/spring/resource/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../resource/src/main/java/com/sripiranavan/spring/resource/controllers/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jms-1/src/main/java/com/sripiranavan/java/MessageConsumerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jms-1/src/main/java/com/sripiranavan/java/MessageProducerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jms-1/src/main/java/com/sripiranavan/java/ProductConsumerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jms-1/src/main/java/com/sripiranavan/java/ProductMessageProducerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jms-1/src/main/java/com/sripiranavan/java/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jms-1/src/main/java/com/sripiranavan/java/config/MessagingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jms-1/src/main/java/com/sripiranavan/java/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jms-1/src/main/java/com/sripiranavan/java/producer/MessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jms-1/src/main/java/com/sripiranavan/java/producer/ProductMessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jms-1/src/main/java/com/sripiranavan/java/receiver/ProductMessageReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-jms/src/main/java/com/sripiranavan/spring/jms/config/MessagingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/main/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/main/java/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/main/java/websocket/ChatEndPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/main/java/websocket/MessageDecorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/main/java/websocket/MessageEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/sripiranavan/spring/user/VO/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/sripiranavan/spring/user/VO/ResponseTemplateVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/sripiranavan/spring/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/sripiranavan/spring/user/entity/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/sripiranavan/spring/user/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/java/com/sripiranavan/spring/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-service/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webSocket/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webSocket/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webSocket/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webSocket/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webSocket/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webSocket/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webSocket/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webSocket/src/main/java/model/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webSocket/src/main/java/websocket/ChatEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webSocket/src/main/java/websocket/MessageDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webSocket/src/main/java/websocket/MessageEncorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webSocket/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webSocket/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webSocket/src/main/webapp/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webSocket/src/main/webapp/websocket.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ARmpa2Q8gafXcN1YI8uGy5RNft" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Program/Spring/test/spring-jms"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.MessageReceiver">
+    <configuration name="MessageReceiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jms.MessageReceiver" />
+      <module name="jms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageSender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jms.MessageSender" />
+      <module name="jms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MessageReceiver" />
+        <item itemvalue="Application.MessageSender" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92151579-d8fa-456a-8429-673d2a57e1de" name="Changes" comment="" />
+      <created>1654980959359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654980959359</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
